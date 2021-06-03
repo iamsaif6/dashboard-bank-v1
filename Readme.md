@@ -1,17 +1,14 @@
-# Azzero a Construction Website
+# 2 page Banking Dashboard
 
 <br>
 
-<img src="https://github.com/iamsaif6/azzero-v2/blob/master/azzero.gif" width="800px" />
+<img src="https://github.com/iamsaif6/dashboard-bank-v1/blob/master/Screenshot%202021-06-03%20at%2018-50-17%20Document.png" width="800px" />
 
-> ## Checkout Homepage : [Click Here](https://iamsaif6.github.io/azzero-v2 "Azzero")
+> ## Checkout 1st Dashboard : [Click Here](https://iamsaif6.github.io/dashboard-bank-v1 "Dashboard")
 
-> ### Here are the links for other 4 page :
+> ### Here is the 2nd Page :
 
-- [ Blog Page ](https://iamsaif6.github.io/azzero-v2/blog.html "Azzero")
-- [ Homepage 2 ](https://iamsaif6.github.io/azzero-v2/index2.html "Azzero")
-- [ Service Page ](https://iamsaif6.github.io/azzero-v2/servizi.html "Azzero")
-- [ Socity Page ](https://iamsaif6.github.io/azzero-v2/society.html "Azzero")
+- [ 2nd Dashboard ](https://iamsaif6.github.io/dashboard-bank-v1/index%20-%20Copy.html "Azzero")
 
  <br>
 
