@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/bdc84e071b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/tavo-calendar.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+      <!-- Overlay -->
+
+      <div class="overlay"></div>
+
+    <!-- ================
+    ========= Nav======
+    =================== -->
+
+    <nav class="nav v2">
+        <div class="container-fluid">
+            <div class="nav__flex">
+                <div class="nav__logo">
+                    <img src="img/LOGO.png" class="nav__img" alt="">
+                </div>
+
+                                <!-- Offset Trigger -->
+                                <div class="offset__trigger__wrapper">
+                                  <span class="offset__trigger"></span>
+                                  <span class="offset__trigger"></span>
+                                  <span class="offset__trigger"></span>
+                                  </div>
+
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Accounts
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Transfers
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Reports
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tools
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </nav>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-search"></i></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><i class="far fa-envelope"></i></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-bell"></i></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-cog"></i></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><img src="img/Avatar-picture.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Div Flex -->
+
+    <div class="main__wrapper">
+      <div class="sidebar">
+        <a href="#" class="sidebar__link">
+            <img src="img/b-1.svg" alt="">
+            <p>dashboard</p>
+        </a>
+        <a href="#" class="sidebar__link active">
+            <img src="img/b-1-1.svg" alt="">
+            <p>Banking</p>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="img/b-2.svg" alt="">
+            <p>custody</p>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="img/b-3.svg" alt="">
+            <p>landing</p>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="img/b-4.svg" alt="">
+            <p>Wealth Management</p>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="img/Exchange icon.svg" alt="">
+            <p>Exchange</p>
+        </a>
+    </div>
+        <div class="main__content">
+            <h1 class="main__content__header mb-5">Banking <span> Accounts / Accounts Summary</span></h1>
+            <div class="row ">
+                <div class="col-md-8">
+                    <div class="table__wrapper">
+                    <div class="table__wrapper-2">
+                        <div class="table__header">
+                            <h2 class="table__heading">All Accounts</h2>
+                            <div class="table__options">
+                                <a href="#">Export <i class="fas fa-download"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">TYPE <i class="fas fa-sort"></i></th>
+                                <th scope="col">ACCOUNT NAME <i class="fas fa-sort"></i></th>
+                                <th scope="col">STATUS <i class="fas fa-sort"></i></th>
+                                <th scope="col">CURRENCY  <i class="fas fa-sort"></i></th>
+                                <th scope="col">AVAILABLE  BALANCE <i class="fas fa-sort"></i></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Current</td>
+                                <td>0126791**** - NORM</td>
+                                <td>Active</td>
+                                <td>USD</td>
+                                <td>$ 261180709.45</td>
+                              </tr>
+                              <tr>
+                                <td>Savings</td>
+                                <td>0126792**** - IBA</td>
+                                <td>Active</td>
+                                <td>USD</td>
+                                <td>$ 2,693,735.01</td>
+                              </tr>
+                              <tr>
+                                <td>Savings</td>
+                                <td>0126793**** - NIBA</td>
+                                <td>Deactivated</td>
+                                <td>EUR</td>
+                                <td>€ 153465.80</td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="calander__wrapper">
+                    <h2 class="table__heading mb-5">Celendar</h2>
+                    <div id="my-calendar"></div>
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col-md-6 text-center mt-4">
+                          <a href="#" class="calander__btn">View Reports</a>
+                        </div>
+                        <div class="col-md-6 text-center mt-4">
+                          <a href="#" class="calander__btn">View History</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-md-7">
+                  <div class="table__wrapper">
+                  <div class="table__wrapper-2">
+                      <div class="table__header">
+                          <h2 class="table__heading">Transaction History</h2>
+                          <div class="table__options">
+                              <a href="#">Export <i class="fas fa-download"></i></a>
+                              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                          </div>
+                      </div>
+                      <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">DATE</th>
+                              <th scope="col">CATEGORY</th>
+                              <th scope="col">DESCRIPTION</th>
+                              <th scope="col">CATEGORY </th>
+                              <th scope="col">AMOUNT</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>08.30.2019</td>
+                              <td><object data="img/b1.svg"></object></td>
+                              <td>Amazon Prime </td>
+                              <td>Entertainment</td>
+                              <td>$ 14.99</td>
+                            </tr>
+                            <tr>
+                              <td>08.30.2019</td>
+                              <td><object data="img/b2.svg"></object></td>
+                              <td>WT Mr John Doe </td>
+                              <td>Transfer</td>
+                              <td>$ 2000.00</td>
+                            </tr>
+                            <tr>
+                              <td>08.30.2019</td>
+                              <td><object data="img/b3.svg"></object></td>
+                              <td>Catch </td>
+                              <td>Food</td>
+                              <td>$ 87.90</td>
+                            </tr>
+                            <tr>
+                              <td>08.30.2019</td>
+                              <td><object data="img/b4.svg"></object></td>
+                              <td>ATM</td>
+                              <td>Withdrawal</td>
+                              <td>$ 300.00</td>
+                            </tr>
+                            <tr>
+                              <td>08.30.2019</td>
+                              <td><object data="img/b5.svg"></object></td>
+                              <td>Nordstroom</td>
+                              <td>Shopping</td>
+                              <td>$ 578.99</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-md-5">
+                <div class="calander__wrapper">
+                  <h2 class="table__heading mb-5"></h2>
+                  <img src="img/Screenshot 2020-12-28 163347.png" class="img-fluid" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap files -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+        <!-- With locals-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js" ></script>
+    <!-- Without locals-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" ></script> -->
+    <script src="js/tavo-calendar.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Main js file -->
+    
+
+    <script src="js/main.js"></script>
+    <script>
+      const myCalendar = new TavoCalendar('#my-calendar', {
+  // settings here
+});
+
+</script>
+</body>
+</html>
